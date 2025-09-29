@@ -16,9 +16,12 @@ alias u="sudo pacman -Syu"
 alias update="yay -Syu"
 alias wifi="nmtui"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias lalettan='sh malayalam-dialogue-cli/maladialogue mohanlal'
 
 clear
 
 eval "$(starship init bash)"
 
 fastfetch
+
+sh malayalam-dialogue-cli/maladialogue mohanlal
