@@ -1,6 +1,6 @@
 My Arch Linux & Hyprland Dotfiles
 
-https://github.com/adhrizz/dotfiles/blob/master/screenshot.png?raw=true
+https://github.com/adhrizz/dotfiles/blob/838d4f292e05e4bbb001c1555daab8b3d5b1b997/screenshot.png
 
 Welcome to my personal collection of configuration files for my Arch Linux setup, running the Hyprland compositor. This repository is a backup of my desktop environment, intended to be both functional and aesthetically pleasing with a clean, minimalist theme.
 Gallery
