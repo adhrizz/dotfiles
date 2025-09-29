@@ -1,0 +1,22 @@
+# Ignore everything in the cache directory
+/.cache/
+
+# Ignore local application data and state
+/.local/
+/.mozilla/
+/.pki/
+
+# Ignore user directories
+/Desktop/
+/Documents/
+/Downloads/
+/Music/
+/Pictures/
+/Public/
+/Templates/
+/Videos/
+
+# Ignore other common files and logs
+/.bash_history
+/.python_history
+/nohup.out
