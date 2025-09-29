@@ -1,0 +1,19 @@
+{
+	"window-state-dashboard": {
+		"windowBounds": {
+			"x": 13,
+			"y": 47,
+			"width": 942,
+			"height": 1020
+		},
+		"displayBounds": {
+			"x": 0,
+			"y": 0,
+			"width": 1920,
+			"height": 1080
+		},
+		"isFullScreen": false,
+		"isMaximized": false
+	},
+	"displayRestartDialog": false
+}

@@ -1,0 +1,90 @@
+{
+	"cloud.hasUserAcknowledgedBetaDialog": false,
+	"cloud.hasUserAcknowledgedReleaseDialog": false,
+	"dockerAI.showSuggestion": true,
+	"dockerAI.globalDraftUserMessage": "",
+	"dockerAI.threads": {},
+	"sideNavBar.dashboardRoutes": [
+		[
+			"dockerAI",
+			{
+				"label": "Ask Gordon",
+				"path": "/dashboard/docker-ai",
+				"icon": "Stars",
+				"feature": "AskGordonDesktop",
+				"beta": true
+			}
+		],
+		[
+			"containers",
+			{
+				"label": "Containers",
+				"path": "/dashboard/containers",
+				"icon": "ContainerIcon"
+			}
+		],
+		[
+			"images",
+			{
+				"label": "Images",
+				"path": "/dashboard/images/local",
+				"icon": "ImagesIcon"
+			}
+		],
+		[
+			"volumes",
+			{
+				"label": "Volumes",
+				"path": "/dashboard/volumes",
+				"icon": "VolumeIcon"
+			}
+		],
+		[
+			"kubernetes",
+			{
+				"label": "Kubernetes",
+				"path": "/dashboard/kubernetes",
+				"icon": "KubernetesIcon",
+				"feature": "KubernetesNextGenUI",
+				"beta": true
+			}
+		],
+		[
+			"build",
+			{
+				"label": "Builds",
+				"path": "/dashboard/build/buildHistory",
+				"icon": "BuildIcon"
+			}
+		],
+		[
+			"dockerHub",
+			{
+				"label": "Docker Hub",
+				"path": "/dashboard/docker-hub",
+				"icon": "Public"
+			}
+		],
+		[
+			"dockerScout",
+			{
+				"label": "Docker Scout",
+				"path": "/dashboard/docker-scout",
+				"icon": "ScoutIcon"
+			}
+		],
+		[
+			"mcp",
+			{
+				"label": "MCP Toolkit",
+				"path": "/dashboard/mcp",
+				"icon": "McpToolkitIcon",
+				"feature": "DockerDesktopMCPToolsTab",
+				"desktopSetting": "enableDockerMCPToolkit",
+				"beta": true
+			}
+		]
+	],
+	"sideNavBar.extensionsHiddenByUser": false,
+	"sideNavBar.offloadHiddenByUser": false
+}

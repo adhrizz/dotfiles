@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# This script displays a random Malayalam movie dialogue.
+# It can provide a completely random dialogue or one from a specific actor
+# if the actor's name is passed as an argument.
+
+# Check if an argument (actor name) is provided
+if [ -z "$1" ]; then
+  # No argument, so get a random dialogue from the main file
+  if [ -f ~/dialogues.txt ]; then
+    shuf -n 1 ~/dialogues.txt
+  else
+    echo "The main dialogue file is missing. Please create '~/dialogues.txt'."
+  fi
+else
+  # Argument provided, treat it as an actor's name
+  # Convert actor name to lowercase to match filename convention
+  ACTOR=$(echo "$1" | tr '[:upper:]' '[:lower:]')
+  DIALOGUE_FILE=~/${ACTOR}.txt
+
+  # Check if the actor's dialogue file exists
+  if [ -f "$DIALOGUE_FILE" ]; then
+    # File exists, get a random line from it
+    shuf -n 1 "$DIALOGUE_FILE"
+  else
+    # File does not exist, print an error message
+    echo "Sorry, no dialogues found for '$1'. Try creating a '${ACTOR}.txt' file in your home directory."
+  fi
+fi
+

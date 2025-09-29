@@ -1,0 +1,58 @@
+{
+	"notifications": [
+		{
+			"guid": "b3b4e1ac-3ed7-4001-8678-d639f2389db8",
+			"timestamp": 1758881870124,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "You must initialize pass before logging in to Docker Desktop",
+				"icon": "error",
+				"type": "action-result",
+				"operation": "user-log-in",
+				"title": "Unable to log in",
+				"actionText": "Learn how",
+				"action": {
+					"action": "open-credential-store-instructions",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "53f856a5-d71c-4b77-b10d-3f2c6aeabf2b",
+			"timestamp": 1758947258247,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "How was your startup experience with Docker Desktop?",
+				"icon": "campaign",
+				"type": "feedback",
+				"actionText": "Give feedback",
+				"action": {
+					"action": "open-external-url",
+					"params": {
+						"url": "https://docker.qualtrics.com/jfe/form/SV_6AaVyp25bygjirY?DD_Version=4.46.0&Mode=local&Tab=Startup%2BComplete&OS=Linux"
+					}
+				}
+			}
+		},
+		{
+			"guid": "d040df52-8e74-43c8-9aeb-ea0e385aadae",
+			"timestamp": 1758958428130,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"ephemeral": false,
+				"icon": "success",
+				"message": "Version 4.47.0 successfully installed.",
+				"action": {
+					"action": "open-external-url",
+					"params": {
+						"url": "https://docs.docker.com/desktop/linux/release-notes?utm_source=docker&utm_medium=inproductad&utm_campaign=releasenotesinnotification"
+					}
+				},
+				"type": "update"
+			}
+		}
+	]
+}
