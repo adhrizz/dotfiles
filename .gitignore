@@ -1,22 +1,28 @@
-# Ignore everything in the cache directory
-/.cache/
+# 1. Ignore EVERYTHING by default
+*
 
-# Ignore local application data and state
-/.local/
-/.mozilla/
-/.pki/
+# 2. But DO track the .gitignore file itself
+!.gitignore
 
-# Ignore user directories
-/Desktop/
-/Documents/
-/Downloads/
-/Music/
-/Pictures/
-/Public/
-/Templates/
-/Videos/
+# 3. Now, UN-ignore the specific config files and folders you want to back up.
+# Add your essential folders (notice the trailing slash)
+!/.config/hypr/
+!/.config/waybar/
+!/.config/kitty/
+!/.config/rofi/
+!/.config/swaync/
+!/.config/fastfetch/
+!/.config/gtk-4.0/
+!/.config/gtk-3.0/
+!/.config/dunst/
+!/.config/wallpaper/
+!/.config/nwg-look/
+!/.config/thunar/
+!/.config/cava/
+!/.config/curd/
+!/.config/wofi/
 
-# Ignore other common files and logs
-/.bash_history
-/.python_history
-/nohup.out
+# Add your essential files
+!/.zshrc
+!/pkglist.txt
+!/README.md
